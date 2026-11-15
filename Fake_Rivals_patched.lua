@@ -23971,7 +23971,7 @@ local function directEntry(...)
                 end
                 writefile(
                     'autoexec/fake_enhancements.lua',
-                    'local canCheck = type(isfile) == "function";\n\t\tif canCheck and not isfile("LOAD_PERSISTENT") then return end;\n\t\tif canCheck and isfile("LOAD_SILENTLY") then SILENT = true end;\n\t\tlocal okFetch, source = pcall(game.HttpGet, game, "https://raw.githubusercontent.com/dungtokyoo30-sys/ue/main/fake_rivals_rainbow.lua");\n\t\tif not okFetch then return end;\n\t\tlocal chunk = (loadstring or load)(source);\n\t\tif chunk then chunk() end;\n\t\t'
+                    'local canCheck = type(isfile) == "function";\n\t\tif canCheck and not isfile("LOAD_PERSISTENT") then return end;\n\t\tif canCheck and isfile("LOAD_SILENTLY") then SILENT = true end;\n\t\tlocal okFetch, source = pcall(game.HttpGet, game, "https://raw.githubusercontent.com/dungtokyoo30-sys/ue/main/Fake_Rivals_patched.lua");\n\t\tif not okFetch then return end;\n\t\tlocal chunk = (loadstring or load)(source);\n\t\tif chunk then chunk() end;\n\t\t'
                 )
             end)
         end
@@ -27402,7 +27402,7 @@ local function directEntry(...)
           if not (not sharedSlot1_23.current) then
             sharedSlot1_23.current = getfenv().pcall
             sharedSlot1_24.current = getfenv().queue_on_teleport
-            sharedSlot1_25.current = "local canCheck = type(isfile) == \"function\";\n\t\tif canCheck and not isfile(\"LOAD_PERSISTENT\") then return end;\n\t\tif canCheck and isfile(\"LOAD_SILENTLY\") then SILENT = true end;\n\t\tlocal okFetch, source = pcall(game.HttpGet, game, \"https://raw.githubusercontent.com/dungtokyoo30-sys/ue/main/fake_rivals_rainbow.lua\");\n\t\tif not okFetch then return end;\n\t\tlocal chunk = (loadstring or load)(source);\n\t\tif chunk then chunk() end;\n\t\t"
+            sharedSlot1_25.current = "local canCheck = type(isfile) == \"function\";\n\t\tif canCheck and not isfile(\"LOAD_PERSISTENT\") then return end;\n\t\tif canCheck and isfile(\"LOAD_SILENTLY\") then SILENT = true end;\n\t\tlocal okFetch, source = pcall(game.HttpGet, game, \"https://raw.githubusercontent.com/dungtokyoo30-sys/ue/main/Fake_Rivals_patched.lua\");\n\t\tif not okFetch then return end;\n\t\tlocal chunk = (loadstring or load)(source);\n\t\tif chunk then chunk() end;\n\t\t"
             sharedSlot1_23.current(sharedSlot1_24.current, sharedSlot1_25.current)
           end
         end
@@ -28912,7 +28912,7 @@ local function directEntry(...)
             if not (not sharedSlot1_23.current) then
               sharedSlot1_23.current = getfenv().pcall
               sharedSlot1_24.current = getfenv().queue_on_teleport
-              sharedSlot1_25.current = "local canCheck = type(isfile) == \"function\";\n\t\tif canCheck and not isfile(\"LOAD_PERSISTENT\") then return end;\n\t\tif canCheck and isfile(\"LOAD_SILENTLY\") then SILENT = true end;\n\t\tlocal okFetch, source = pcall(game.HttpGet, game, \"https://raw.githubusercontent.com/dungtokyoo30-sys/ue/main/fake_rivals_rainbow.lua\");\n\t\tif not okFetch then return end;\n\t\tlocal chunk = (loadstring or load)(source);\n\t\tif chunk then chunk() end;\n\t\t"
+              sharedSlot1_25.current = "local canCheck = type(isfile) == \"function\";\n\t\tif canCheck and not isfile(\"LOAD_PERSISTENT\") then return end;\n\t\tif canCheck and isfile(\"LOAD_SILENTLY\") then SILENT = true end;\n\t\tlocal okFetch, source = pcall(game.HttpGet, game, \"https://raw.githubusercontent.com/dungtokyoo30-sys/ue/main/Fake_Rivals_patched.lua\");\n\t\tif not okFetch then return end;\n\t\tlocal chunk = (loadstring or load)(source);\n\t\tif chunk then chunk() end;\n\t\t"
               sharedSlot1_23.current(sharedSlot1_24.current, sharedSlot1_25.current)
             end
           end
